@@ -26,9 +26,9 @@ class ThemeSwitcher extends Component {
 						<span class="sr-only">Toggle Theme Dropdown</span>
 					</button>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#" onClick={e => this.chooseTheme('Primary', e)}>Primary Theme</a>
-						<a class="dropdown-item" href="#" onClick={e => this.chooseTheme('Danger', e)}>Danger Theme</a>
-						<a class="dropdown-item" href="#" onClick={e => this.chooseTheme('Success', e)}>Success Theme</a>
+						<a class="dropdown-item" href="#" onClick={e => this.chooseTheme('Primary color', e)}>Primary Theme</a>
+						<a class="dropdown-item" href="#" onClick={e => this.chooseTheme('Danger color', e)}>Danger Theme</a>
+						<a class="dropdown-item" href="#" onClick={e => this.chooseTheme('Success color', e)}>Success Theme</a>
 						<div class="dropdown-divider"></div>
 						<a class="dropdown-item" href="#" onClick={this.resetTheme}>Default Theme</a>
 					</div>
